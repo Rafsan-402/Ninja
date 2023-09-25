@@ -37,7 +37,7 @@ else:
     exit('\033[1;32mBēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
 
 try:
-	prox= requests.get('https://github.com/Rafsan-402/Rafsan/blob/main/Approve.txt').text
+	prox= requests.get('https://github.com/Rafsan-402/Trick/blob/main/Trick.txt').text
 	open('proxies.txt','w').write(prox)
 except Exception as e:
 	print('')
